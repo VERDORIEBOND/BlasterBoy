@@ -3,10 +3,12 @@ package com.ictm2c3.blasterboy;
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.app.GameSettings;
 import com.almasb.fxgl.entity.Entity;
+import com.almasb.fxgl.dsl.FXGL;
 import com.almasb.fxgl.entity.level.Level;
 import com.almasb.fxgl.entity.level.text.TextLevelLoader;
 import com.almasb.fxgl.input.UserAction;
 import javafx.scene.input.KeyCode;
+import javafx.scene.text.Text;
 
 import static com.almasb.fxgl.dsl.FXGL.*;
 
@@ -19,6 +21,7 @@ public class BBApp extends GameApplication {
     private PlayerComponent playerComponent;
     private GunComponent gunComponent;
     private final int speed = 100;
+    private int ammo;
 
 
     public static void main(String[] args)
@@ -34,6 +37,10 @@ public class BBApp extends GameApplication {
         gameSettings.setHeight(600);
         gameSettings.setTitle("BlasterBoy");
         gameSettings.setVersion("0.1");
+    }
+
+    public int getAmmo() {
+        return ammo;
     }
 
     @Override
@@ -54,10 +61,25 @@ public class BBApp extends GameApplication {
 
         getInput().addAction(new UserAction("moveUp") {
             @Override
-            protected void onAction() {
+            protected void onAction()
+            {
                 playerComponent.moveUp(250);
+                ammo =+ 1;
+                initUI();
             }
         }, KeyCode.SPACE);
+    }
+
+    @Override
+    protected void initUI()
+    {
+        super.initUI();
+        Text ammoLeft = new Text();
+        ammoLeft.setTranslateX(50); // x = 50
+        ammoLeft.setTranslateY(100); // y = 100
+
+        ammoLeft.setText("Ammo: " + getAmmo());
+        FXGL.getGameScene().addUINode(ammoLeft); // add to the scene graph
     }
 
 

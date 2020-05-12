@@ -1,6 +1,6 @@
 package com.ictm2c3.blasterboy;
 
-import arduino.Arduino;
+import arduino.*;
 import java.util.Scanner;
 
 public class ardu
