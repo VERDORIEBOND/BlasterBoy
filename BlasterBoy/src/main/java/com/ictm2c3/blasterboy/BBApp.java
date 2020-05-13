@@ -98,10 +98,21 @@ public class BBApp extends GameApplication {
         player = spawn("Player", getAppWidth() / 2 - 20, getAppHeight() - 80);
         playerComponent = player.getComponent(PlayerComponent.class);
 
+        new Thread(() -> {
+            while (true) {
+                double angleRaw = ardu.getInstance().getPotmeter();
+                if (angleRaw >= 0)
+                {
+                    ArduData.getInstance().setAngle(angleRaw);
+                    //System.out.println(angleRaw);
+                } else {
+                    System.out.println("potmeter is invalid");
+                }
+            }
+        }).start();
         //Spawns in gun
-        gun = spawn("gun",player.getX(),player.getY());
+        gun = spawn("Gun",player.getX(),player.getY());
         gunComponent = gun.getComponent(GunComponent.class);
-
     }
 
     public void startGame()

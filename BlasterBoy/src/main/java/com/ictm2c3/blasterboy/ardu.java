@@ -35,15 +35,13 @@ public class ardu
 
     public int getPotmeter()
     {
-        int numberPot = 0;
         this.ardu1.serialWrite('p');
         String answer = this.ardu1.serialRead();
 
-        if(answer.startsWith("potm"))
+        if(answer.length() > 0)
         {
-            numberPot = Integer.parseInt(answer.substring(5));
+            return Integer.parseInt(answer.trim());
         }
-        return numberPot;
+        return -1;
     }
 }
-

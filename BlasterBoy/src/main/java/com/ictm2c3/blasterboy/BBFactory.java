@@ -57,19 +57,17 @@ public class BBFactory implements EntityFactory {
                 .with(new PlayerComponent())
                 .build();
     }
-    @Spawns("gun")
-    public Entity newGun(SpawnData data)
-    {
+    @Spawns("Gun")
+    public Entity newGun(SpawnData data) {
         PhysicsComponent physics = new PhysicsComponent();
         physics.setBodyType(BodyType.STATIC);
 
         return FXGL.entityBuilder()
                 .type(gun)
                 .from(data)
-                .viewWithBBox(new Rectangle(50,10,Color.RED))
+                .viewWithBBox(texture("gun.png",40,40))
                 .with(new GunComponent())
                 .build();
-
     }
 
 
