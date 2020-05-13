@@ -14,7 +14,7 @@ import static com.almasb.fxgl.dsl.FXGL.*;
 
 public class BBApp extends GameApplication {
 
-    public static final int TILE_SIZE = 39;
+    public static final int TILE_SIZE = 80;
 
     private Entity player;
     private Entity gun;
@@ -33,8 +33,8 @@ public class BBApp extends GameApplication {
     @Override
     protected void initSettings(GameSettings gameSettings)
     {
-        gameSettings.setWidth(600);
-        gameSettings.setHeight(600);
+        gameSettings.setWidth(1200);
+        gameSettings.setHeight(1200);
         gameSettings.setTitle("BlasterBoy");
         gameSettings.setVersion("0.1");
     }
@@ -45,29 +45,14 @@ public class BBApp extends GameApplication {
 
     @Override
     protected void initInput() {
-        getInput().addAction(new UserAction("moveLeft") {
-            @Override
-            protected void onAction() {
-                playerComponent.moveLeft(speed);
-            }
-        }, KeyCode.A);
-
-        getInput().addAction(new UserAction("moveRight") {
-            @Override
-            protected void onAction() {
-                playerComponent.moveRight(speed);
-            }
-        }, KeyCode.D);
-
-        getInput().addAction(new UserAction("moveUp") {
-            @Override
-            protected void onAction()
-            {
-                playerComponent.moveUp(250);
-                ammo =+ 1;
-                initUI();
-            }
-        }, KeyCode.SPACE);
+            getInput().addAction(new UserAction("Launch") {
+                @Override
+                protected void onActionBegin() {
+                    player.getComponent(PlayerComponent.class).launch();
+                    ammo =+ 1;
+                    initUI();
+                }
+            }, KeyCode.SPACE);
     }
 
     @Override
@@ -89,13 +74,13 @@ public class BBApp extends GameApplication {
         getGameWorld().addEntityFactory(new BBFactory());
 
         //Spawns in the level
-        Level level = getAssetLoader().loadLevel("0.txt", new TextLevelLoader(40, 40, '0'));
+        Level level = getAssetLoader().loadLevel("0.txt", new TextLevelLoader(80, 80, '0'));
         getGameWorld().setLevel(level);
         //Spawns in background
         getGameWorld().spawn("BG");
 
         //Spawns in player
-        player = spawn("Player", getAppWidth() / 2 - 20, getAppHeight() - 80);
+        player = spawn("Player", getAppWidth() / 2 - 40, getAppHeight() - 160);
         playerComponent = player.getComponent(PlayerComponent.class);
 
         new Thread(() -> {

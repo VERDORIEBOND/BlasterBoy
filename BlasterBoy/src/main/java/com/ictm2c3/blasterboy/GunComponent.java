@@ -23,6 +23,6 @@ public class GunComponent extends Component {
         entity.setY(gunY);
         //Handles rotation
         //System.out.println(ArduData.getInstance().getAngle());
-        entity.setRotation(ArduData.getInstance().getAngle());
+        entity.setRotation(ArduData.getInstance().getAngle() + 180);
     }
 }

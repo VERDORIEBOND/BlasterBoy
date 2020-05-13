@@ -11,6 +11,7 @@ import com.almasb.fxgl.physics.BoundingShape;
 import com.almasb.fxgl.physics.HitBox;
 import com.almasb.fxgl.physics.PhysicsComponent;
 import com.almasb.fxgl.physics.box2d.dynamics.BodyType;
+import com.almasb.fxgl.physics.box2d.dynamics.FixtureDef;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
@@ -25,7 +26,7 @@ public class BBFactory implements EntityFactory {
     public Entity newBackground(SpawnData data) {
         return FXGL.entityBuilder()
                 .at(0, 0)
-                .view(new Rectangle(600, 600, Color.LIGHTBLUE))
+                .view(new Rectangle(1200, 1200, Color.LIGHTBLUE))
                 .zIndex(-1)
                 .build();
     }
@@ -36,8 +37,8 @@ public class BBFactory implements EntityFactory {
         return FXGL.entityBuilder()
                 .type(wall)
                 .from(data)
-                .bbox(new HitBox(BoundingShape.box(40, 40)))
-                .view(new Rectangle(40, 40, Color.GRAY.saturate()))
+                .bbox(new HitBox(BoundingShape.box(80, 80)))
+                .view(new Rectangle(80, 80, Color.GRAY.saturate()))
                 .with(new PhysicsComponent())
 
                 .build();
@@ -47,11 +48,12 @@ public class BBFactory implements EntityFactory {
     public Entity newPlayer(SpawnData data) {
         PhysicsComponent physics = new PhysicsComponent();
         physics.setBodyType(BodyType.DYNAMIC);
+        physics.setFixtureDef(new FixtureDef().friction(1.0f));
 
         return FXGL.entityBuilder()
                 .type(player)
                 .from(data)
-                .viewWithBBox(new Rectangle(TILE_SIZE, TILE_SIZE, Color.DARKGREEN))
+                .viewWithBBox(texture("player.png",80,80))
                 .with(new CollidableComponent(true))
                 .with(physics)
                 .with(new PlayerComponent())
@@ -65,7 +67,7 @@ public class BBFactory implements EntityFactory {
         return FXGL.entityBuilder()
                 .type(gun)
                 .from(data)
-                .viewWithBBox(texture("gun.png",40,40))
+                .viewWithBBox(texture("gun.png",80,80))
                 .with(new GunComponent())
                 .build();
     }
