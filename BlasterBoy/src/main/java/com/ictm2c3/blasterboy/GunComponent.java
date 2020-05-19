@@ -22,7 +22,11 @@ public class GunComponent extends Component {
         entity.setX(gunX);
         entity.setY(gunY);
         //Handles rotation
-        //System.out.println(ArduData.getInstance().getAngle());
         entity.setRotation(ArduData.getInstance().getAngle() + 180);
+
+        if (ArduData.getInstance().isJump())
+        {
+            player.getComponent(PlayerComponent.class).launch();
+        }
     }
 }

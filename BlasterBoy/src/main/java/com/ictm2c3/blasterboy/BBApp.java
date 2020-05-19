@@ -23,11 +23,21 @@ public class BBApp extends GameApplication {
     private final int speed = 100;
     private int ammo;
 
+    private static BBApp single_instance = null;
+
 
     public static void main(String[] args)
     {
         mainMenuInterface mainMenu = new mainMenuInterface();
         mainMenu.startMenu();
+    }
+
+    public static BBApp getInstance()
+    {
+        if (single_instance == null)
+            single_instance = new BBApp();
+
+        return single_instance;
     }
 
     @Override
@@ -37,6 +47,10 @@ public class BBApp extends GameApplication {
         gameSettings.setHeight(1200);
         gameSettings.setTitle("BlasterBoy");
         gameSettings.setVersion("0.1");
+    }
+
+    public Entity getPlayer() {
+        return player;
     }
 
     public int getAmmo() {
@@ -83,18 +97,25 @@ public class BBApp extends GameApplication {
         player = spawn("Player", getAppWidth() / 2 - 40, getAppHeight() - 160);
         playerComponent = player.getComponent(PlayerComponent.class);
 
-        new Thread(() -> {
+        Thread.UncaughtExceptionHandler h = (th, ex) -> System.out.println("Uncaught exception: " + ex);
+
+        Thread t = new Thread(() -> {
             while (true) {
                 double angleRaw = ardu.getInstance().getPotmeter();
                 if (angleRaw >= 0)
                 {
                     ArduData.getInstance().setAngle(angleRaw);
-                    //System.out.println(angleRaw);
                 } else {
-                    System.out.println("potmeter is invalid");
+                    System.out.println("potmeter is invalid: " + angleRaw);
+
                 }
+                //Button
+                ArduData.getInstance().setJump(ardu.getInstance().getButton());
             }
-        }).start();
+        });
+        t.setUncaughtExceptionHandler(h);
+        t.start();
+
         //Spawns in gun
         gun = spawn("Gun",player.getX(),player.getY());
         gunComponent = gun.getComponent(GunComponent.class);

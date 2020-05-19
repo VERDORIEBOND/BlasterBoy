@@ -2,6 +2,7 @@ package com.ictm2c3.blasterboy;
 
 import arduino.*;
 import java.util.Scanner;
+import static java.lang.Boolean.parseBoolean;
 
 public class ardu
 {
@@ -9,13 +10,18 @@ public class ardu
     private static Scanner data;
     private static ardu single_instance = null;
     private final Arduino ardu1;
+    private boolean hasJumped = false;
 
-
+    public String getAnswer(char type)
+    {
+        this.ardu1.serialWrite(type);
+        return this.ardu1.serialRead();
+    }
 
     // private constructor restricted to this class itself
     private ardu()
     {
-        this.ardu1 = new Arduino("COM5");
+        this.ardu1 = new Arduino("COM4");
         this.ardu1.setBaudRate(9600);
     }
 
@@ -35,13 +41,33 @@ public class ardu
 
     public int getPotmeter()
     {
-        this.ardu1.serialWrite('p');
-        String answer = this.ardu1.serialRead();
-
-        if(answer.length() > 0)
+        int output = -1;
+        if (getAnswer('p').startsWith("ptm"))
         {
-            return Integer.parseInt(answer.trim());
+            if (getAnswer('p').length()>=3)
+            {
+                output = Integer.parseInt(getAnswer('p').substring(3).trim());
+            }
         }
-        return -1;
+        return output;
+    }
+
+    public boolean getButton()
+    {
+        boolean returnAnswer = false;
+        if (getAnswer('b').startsWith("btn"))
+        {
+            returnAnswer = getAnswer('b').endsWith("1");
+        }
+
+        if (hasJumped && !returnAnswer)
+        {
+            hasJumped = false;
+        }
+        else if(!hasJumped && returnAnswer)
+        {
+            hasJumped = true;
+        }
+        return hasJumped;
     }
 }
