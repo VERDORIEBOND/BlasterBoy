@@ -4,6 +4,7 @@ public class ArduData
 {
     double angle;
     boolean jump;
+    int currentJumps = 0;
     private static ArduData single_instance = null;
 
     public static ArduData getInstance()
@@ -16,6 +17,17 @@ public class ArduData
 
     public boolean isJump() {
         return jump;
+    }
+
+    public int getCurrentJumps() {
+        return currentJumps;
+    }
+
+    public void addCurrentJumps() {
+        currentJumps++;
+    }
+    public void setCurrentJumps(int currentJumps) {
+        this.currentJumps = currentJumps;
     }
 
     public void setJump(boolean jump) {

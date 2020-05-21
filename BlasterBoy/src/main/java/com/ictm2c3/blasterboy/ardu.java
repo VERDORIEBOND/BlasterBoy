@@ -15,14 +15,24 @@ public class ardu
     public String getAnswer(char type)
     {
         this.ardu1.serialWrite(type);
-        return this.ardu1.serialRead();
+        String answer = this.ardu1.serialRead();
+        String output = "";
+        if (type == 'b' && answer.startsWith("btn"))
+        {
+            output = answer;
+        }
+        else if (type == 'p' && answer.startsWith("ptm"))
+        {
+            output = answer;
+        }
+        return output;
     }
 
     // private constructor restricted to this class itself
     private ardu()
     {
-        this.ardu1 = new Arduino("COM4");
-        this.ardu1.setBaudRate(9600);
+        this.ardu1 = new Arduino("COM3");
+        this.ardu1.setBaudRate(2400);
     }
 
     // static method to create instance of Singleton class
@@ -42,32 +52,22 @@ public class ardu
     public int getPotmeter()
     {
         int output = -1;
-        if (getAnswer('p').startsWith("ptm"))
-        {
-            if (getAnswer('p').length()>=3)
+        String answer = getAnswer('p');
+            if (answer.length()>=3)
             {
-                output = Integer.parseInt(getAnswer('p').substring(3).trim());
+                output = Integer.parseInt(answer.substring(3).trim());
             }
-        }
         return output;
     }
 
     public boolean getButton()
     {
-        boolean returnAnswer = false;
-        if (getAnswer('b').startsWith("btn"))
+        String arduAnswer = getAnswer('b');
+        boolean output = false;
+        if (Integer.parseInt(arduAnswer.substring(3).trim()) == 1)
         {
-            returnAnswer = getAnswer('b').endsWith("1");
+            output = true;
         }
-
-        if (hasJumped && !returnAnswer)
-        {
-            hasJumped = false;
-        }
-        else if(!hasJumped && returnAnswer)
-        {
-            hasJumped = true;
-        }
-        return hasJumped;
+        return output;
     }
 }

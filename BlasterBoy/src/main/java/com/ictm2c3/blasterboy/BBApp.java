@@ -7,7 +7,9 @@ import com.almasb.fxgl.dsl.FXGL;
 import com.almasb.fxgl.entity.level.Level;
 import com.almasb.fxgl.entity.level.text.TextLevelLoader;
 import com.almasb.fxgl.input.UserAction;
+import com.almasb.fxgl.ui.FontType;
 import javafx.scene.input.KeyCode;
+import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 
 import static com.almasb.fxgl.dsl.FXGL.*;
@@ -21,7 +23,7 @@ public class BBApp extends GameApplication {
     private PlayerComponent playerComponent;
     private GunComponent gunComponent;
     private final int speed = 100;
-    private int ammo;
+    Text ammoLeft = new Text();
 
     private static BBApp single_instance = null;
 
@@ -53,34 +55,39 @@ public class BBApp extends GameApplication {
         return player;
     }
 
-    public int getAmmo() {
-        return ammo;
-    }
 
     @Override
     protected void initInput() {
-            getInput().addAction(new UserAction("Launch") {
-                @Override
-                protected void onActionBegin() {
-                    player.getComponent(PlayerComponent.class).launch();
-                    ammo =+ 1;
-                    initUI();
-                }
-            }, KeyCode.SPACE);
+        getInput().addAction(new UserAction("Launch") {
+            @Override
+            protected void onActionBegin()
+            {
+                player.getComponent(PlayerComponent.class).launch();
+                initUI();
+            }
+        }, KeyCode.SPACE);
     }
 
     @Override
     protected void initUI()
     {
-        super.initUI();
-        Text ammoLeft = new Text();
-        ammoLeft.setTranslateX(50); // x = 50
-        ammoLeft.setTranslateY(100); // y = 100
-
-        ammoLeft.setText("Ammo: " + getAmmo());
-        FXGL.getGameScene().addUINode(ammoLeft); // add to the scene graph
+            super.initUI();
     }
 
+    public void addExampleFontUI(int x, int y, int ammo)
+    {
+        Font fontUI = getUIFactoryService().newFont(FontType.UI, 14.0);
+
+        Text text = new Text("This is UI_FONT: Ammo " + ( 2 - ammo));
+        text.setFont(fontUI);
+
+        addUINode(text, x, y);
+    }
+
+    public void changeAmmo(int ammo)
+    {
+        ammoLeft.setText("Ammo: " + (2 - ammo));
+    }
 
     @Override
     protected void initGame() {

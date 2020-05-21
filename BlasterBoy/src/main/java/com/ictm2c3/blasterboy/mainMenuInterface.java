@@ -9,8 +9,6 @@ public class mainMenuInterface extends BBApp
     private JPanel mainPannel;
     private JButton exitButton;
     private JButton startButton;
-    private JComboBox comboBox3;
-    private JComboBox comboBox4;
     private JLabel startField;
     private static JFrame frame = new JFrame("MainInput");
 

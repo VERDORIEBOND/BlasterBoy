@@ -10,12 +10,32 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/ArduData.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/ArduData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/BBApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/BBApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/BBFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/BBFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/GunComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/GunComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/PlayerComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/PlayerComponent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/ardu.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/ardu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-May-2020-16.41.45.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-May-2020-16.45.42.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/FXGL-13-May-2020-16.47.18.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/mainMenuInterface.form" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/mainMenuInterface.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/mainMenuInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/mainMenuInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/ArduData.class" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/ArduData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBApp$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBApp$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/GunComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/GunComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/PlayerComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/PlayerComponent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/ardu.class" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/ardu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-May-2020-17.29.09.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-May-2020-17.51.05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-May-2020-17.53.52.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-May-2020-17.54.12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-May-2020-17.54.50.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-May-2020-17.55.24.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-May-2020-17.56.02.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-May-2020-17.56.52.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-May-2020-17.58.14.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-19-May-2020-18.08.06.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,11 +175,11 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1589281362605" />
-    <state x="1020" y="310" key="#com.intellij.ide.util.MemberChooser" timestamp="1589889137127">
+    <state x="1020" y="310" key="#com.intellij.ide.util.MemberChooser" timestamp="1590071309203">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587592034690" />
-    <state x="1020" y="310" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1589889137127" />
+    <state x="1020" y="310" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590071309203" />
     <state x="1020" y="310" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1589306286678" />
     <state x="1010" y="490" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589280913888">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -179,49 +199,49 @@
     </state>
     <state x="740" y="222" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587588554487" />
     <state x="987" y="299" key="FileChooserDialogImpl/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1589281063402" />
-    <state width="2517" height="492" key="GridCell.Tab.0.bottom" timestamp="1589904610046">
+    <state width="2517" height="265" key="GridCell.Tab.0.bottom" timestamp="1590072571016">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587628375172" />
-    <state width="2517" height="492" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1589904610046" />
+    <state width="2517" height="265" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590072571016" />
     <state width="2517" height="287" key="GridCell.Tab.0.bottom/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1589446961167" />
-    <state width="2517" height="492" key="GridCell.Tab.0.center" timestamp="1589904610046">
+    <state width="2517" height="265" key="GridCell.Tab.0.center" timestamp="1590072571016">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587628375172" />
-    <state width="2517" height="492" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1589904610046" />
+    <state width="2517" height="265" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590072571016" />
     <state width="2517" height="287" key="GridCell.Tab.0.center/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1589446961166" />
-    <state width="2517" height="492" key="GridCell.Tab.0.left" timestamp="1589904610046">
+    <state width="2517" height="265" key="GridCell.Tab.0.left" timestamp="1590072571016">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587628375171" />
-    <state width="2517" height="492" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1589904610046" />
+    <state width="2517" height="265" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590072571016" />
     <state width="2517" height="287" key="GridCell.Tab.0.left/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1589446961166" />
-    <state width="2517" height="492" key="GridCell.Tab.0.right" timestamp="1589904610046">
+    <state width="2517" height="265" key="GridCell.Tab.0.right" timestamp="1590072571016">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587628375172" />
-    <state width="2517" height="492" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1589904610046" />
+    <state width="2517" height="265" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590072571016" />
     <state width="2517" height="287" key="GridCell.Tab.0.right/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1589446961166" />
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1589904610046">
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1590056510755">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1589904610046" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590056510755" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1589307599726" />
-    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1589904610046">
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1590056510755">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1589904610046" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590056510755" />
     <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1589307599726" />
-    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1589904610046">
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1590056510755">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1589904610046" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590056510755" />
     <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1589307599726" />
-    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1589904610046">
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1590056510755">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1589904610046" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590056510755" />
     <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1589307599726" />
     <state x="653" y="237" key="Maven.ArtifactSearchDialog" timestamp="1589106290834">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -272,9 +292,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587582938457" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1589281000551">
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1590072470342">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590072470341" />
     <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1589281000551" />
   </component>
 </project>

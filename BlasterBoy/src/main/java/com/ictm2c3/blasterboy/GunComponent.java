@@ -14,6 +14,8 @@ public class GunComponent extends Component {
 
     private void moveGun()
     {
+
+
         //Checks player location
         var player = FXGL.getGameWorld().getSingleton(EntityType.player);
         double gunX = player.getX();
@@ -24,9 +26,12 @@ public class GunComponent extends Component {
         //Handles rotation
         entity.setRotation(ArduData.getInstance().getAngle() + 180);
 
-        if (ArduData.getInstance().isJump())
+        if (ArduData.getInstance().isJump() && ArduData.getInstance().getCurrentJumps() <= 1)
         {
             player.getComponent(PlayerComponent.class).launch();
+            ArduData.getInstance().setJump(false);
+            BBApp.getInstance().addExampleFontUI(0,20,ArduData.getInstance().getCurrentJumps());
+            ArduData.getInstance().setCurrentJumps(ArduData.getInstance().getCurrentJumps() + 1);
         }
     }
 }
