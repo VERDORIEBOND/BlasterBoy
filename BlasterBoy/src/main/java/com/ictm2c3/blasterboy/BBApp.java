@@ -2,15 +2,24 @@ package com.ictm2c3.blasterboy;
 
 import com.almasb.fxgl.app.GameApplication;
 import com.almasb.fxgl.app.GameSettings;
+import com.almasb.fxgl.dsl.views.ScrollingBackgroundView;
 import com.almasb.fxgl.entity.Entity;
 import com.almasb.fxgl.dsl.FXGL;
 import com.almasb.fxgl.entity.level.Level;
 import com.almasb.fxgl.entity.level.text.TextLevelLoader;
 import com.almasb.fxgl.input.UserAction;
+import com.almasb.fxgl.particle.ParticleEmitter;
+import com.almasb.fxgl.particle.ParticleEmitters;
+import com.almasb.fxgl.texture.Texture;
 import com.almasb.fxgl.ui.FontType;
+import javafx.geometry.Orientation;
+import javafx.scene.effect.BlendMode;
 import javafx.scene.input.KeyCode;
+import javafx.scene.paint.Color;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
+
+import java.util.Map;
 
 import static com.almasb.fxgl.dsl.FXGL.*;
 
@@ -23,7 +32,6 @@ public class BBApp extends GameApplication {
     private PlayerComponent playerComponent;
     private GunComponent gunComponent;
     private final int speed = 100;
-    Text ammoLeft = new Text();
 
     private static BBApp single_instance = null;
 
@@ -51,6 +59,12 @@ public class BBApp extends GameApplication {
         gameSettings.setVersion("0.1");
     }
 
+    @Override
+    protected void initGameVars(Map<String, Object> vars)
+    {
+        vars.put("Ammo", 2);
+    }
+
     public Entity getPlayer() {
         return player;
     }
@@ -63,31 +77,27 @@ public class BBApp extends GameApplication {
             protected void onActionBegin()
             {
                 player.getComponent(PlayerComponent.class).launch();
-                initUI();
             }
         }, KeyCode.SPACE);
     }
-
+/*
     @Override
     protected void initUI()
     {
             super.initUI();
     }
+ */
 
-    public void addExampleFontUI(int x, int y, int ammo)
-    {
-        Font fontUI = getUIFactoryService().newFont(FontType.UI, 14.0);
-
-        Text text = new Text("This is UI_FONT: Ammo " + ( 2 - ammo));
-        text.setFont(fontUI);
-
-        addUINode(text, x, y);
+    @Override
+    protected void initUI() {
+        Text uiAmmo = new Text("Ammo: ");
+        uiAmmo.setFont(Font.font(50));
+        uiAmmo.setTranslateX(getAppWidth() / 2 - 125);
+        uiAmmo.setTranslateY(60);
+        uiAmmo.textProperty().bind(getip("Ammo").asString("Ammo: %d"));
+        addUINode(uiAmmo);
     }
 
-    public void changeAmmo(int ammo)
-    {
-        ammoLeft.setText("Ammo: " + (2 - ammo));
-    }
 
     @Override
     protected void initGame() {
@@ -98,7 +108,7 @@ public class BBApp extends GameApplication {
         Level level = getAssetLoader().loadLevel("0.txt", new TextLevelLoader(80, 80, '0'));
         getGameWorld().setLevel(level);
         //Spawns in background
-        getGameWorld().spawn("BG");
+        getGameWorld().spawn("background");;
 
         //Spawns in player
         player = spawn("Player", getAppWidth() / 2 - 40, getAppHeight() - 160);
@@ -123,6 +133,7 @@ public class BBApp extends GameApplication {
         t.setUncaughtExceptionHandler(h);
         t.start();
 
+
         //Spawns in gun
         gun = spawn("Gun",player.getX(),player.getY());
         gunComponent = gun.getComponent(GunComponent.class);
@@ -131,6 +142,7 @@ public class BBApp extends GameApplication {
     public void startGame()
     {
         String[] args = new String[] {""};
+
         launch(args);
     }
 

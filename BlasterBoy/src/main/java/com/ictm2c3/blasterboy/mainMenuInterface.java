@@ -10,6 +10,7 @@ public class mainMenuInterface extends BBApp
     private JButton exitButton;
     private JButton startButton;
     private JLabel startField;
+    private JTextPane gebruikDeArduinoPotmeterTextPane;
     private static JFrame frame = new JFrame("MainInput");
 
     public mainMenuInterface() {
@@ -46,6 +47,7 @@ public class mainMenuInterface extends BBApp
         frame.setContentPane(new mainMenuInterface().mainPannel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
+        frame.setSize(400,250);
         frame.setVisible(true);
     }
 }

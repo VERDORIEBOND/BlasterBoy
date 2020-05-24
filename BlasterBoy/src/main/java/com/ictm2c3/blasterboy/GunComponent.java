@@ -1,8 +1,13 @@
 package com.ictm2c3.blasterboy;
 
+import com.almasb.fxgl.audio.Sound;
 import com.almasb.fxgl.dsl.FXGL;
 import com.almasb.fxgl.entity.component.Component;
-import com.ictm2c3.blasterboy.BBApp.*;
+
+import java.util.Random;
+
+import static com.almasb.fxgl.dsl.FXGL.*;
+
 
 public class GunComponent extends Component {
 
@@ -14,8 +19,6 @@ public class GunComponent extends Component {
 
     private void moveGun()
     {
-
-
         //Checks player location
         var player = FXGL.getGameWorld().getSingleton(EntityType.player);
         double gunX = player.getX();
@@ -28,10 +31,11 @@ public class GunComponent extends Component {
 
         if (ArduData.getInstance().isJump() && ArduData.getInstance().getCurrentJumps() <= 1)
         {
+            getAudioPlayer().playSound(getAssetLoader().loadSound("shotgun" + new Random().nextInt(3) + ".wav"));
             player.getComponent(PlayerComponent.class).launch();
             ArduData.getInstance().setJump(false);
-            BBApp.getInstance().addExampleFontUI(0,20,ArduData.getInstance().getCurrentJumps());
             ArduData.getInstance().setCurrentJumps(ArduData.getInstance().getCurrentJumps() + 1);
+            set("Ammo", 2 - ArduData.getInstance().getCurrentJumps());
         }
     }
 }
