@@ -1,57 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a91404d4-9b84-46ac-8854-c7df31fa2c5e" name="Default Changelist" comment="" />
+    <list default="true" id="01e38bbd-5f40-4225-96db-b3c17ba4fff3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.04.53.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.38.21.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.44.35.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.45.56.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.46.13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-27-May-2020-13.51.08.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-28-May-2020-11.12.04.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-28-May-2020-11.14.38.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/FXGL-28-May-2020-11.17.44.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/com_fazecast_jSerialComm_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/BlasterBoy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/ArduData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/ArduinoCom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/BBApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/BBFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/EntityType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/GunComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/PlayerComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/ardu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/mainMenuInterface.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/mainMenuInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/resources/assets/levels/0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/resources/assets/sounds/shotgun0.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/resources/assets/sounds/shotgun1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/resources/assets/sounds/shotgun2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/resources/assets/textures/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/resources/assets/textures/floor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/resources/assets/textures/gun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/resources/assets/textures/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/resources/assets/textures/platform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/resources/assets/textures/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/src/main/resources/assets/textures/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/assets/levels/0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/assets/sounds/shotgun0.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/assets/sounds/shotgun1.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/assets/sounds/shotgun2.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/assets/textures/background.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/assets/textures/gun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/assets/textures/player.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/ictm2c3/blasterboy/ArduData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBApp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/ictm2c3/blasterboy/EntityType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/ictm2c3/blasterboy/GunComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/ictm2c3/blasterboy/PlayerComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/ictm2c3/blasterboy/ardu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy-testing/BlasterBoy/target/classes/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/BlasterBoy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/ArduinoCom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/BBApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/BBFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/EntityType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/GunComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/PlayerComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/mainMenuInterface.form" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/java/com/ictm2c3/blasterboy/mainMenuInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/src/main/resources/assets/levels/0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/META-INF/BlasterBoy.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/assets/levels/0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBApp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBApp$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBApp$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/BBFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/EntityType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/GunComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/PlayerComponent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/ictm2c3/blasterboy/mainMenuInterface.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/intellij/uiDesigner/core/AbstractLayout.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/intellij/uiDesigner/core/DimensionInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/intellij/uiDesigner/core/GridConstraints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/intellij/uiDesigner/core/GridLayoutManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/intellij/uiDesigner/core/HorizontalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/intellij/uiDesigner/core/LayoutState.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/intellij/uiDesigner/core/Spacer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/intellij/uiDesigner/core/SupportCode$TextWithMnemonic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/intellij/uiDesigner/core/SupportCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/intellij/uiDesigner/core/Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlasterBoy/target/classes/com/intellij/uiDesigner/core/VerticalInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ictm2c3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-01-May-2020-14.05.03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-01-May-2020-14.07.35.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-01-May-2020-14.09.05.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-01-May-2020-14.11.04.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-01-May-2020-14.16.23.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-01-May-2020-14.20.38.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-01-May-2020-14.25.55.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-01-May-2020-14.27.03.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-01-May-2020-14.29.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/FXGL-28-Apr-2020-14.53.49.log" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectId" id="1arVnGtSjloeaE96fQSNgGFLk6h" />
+  <component name="ProjectId" id="1cUJZM3kfp05Tj0FdXEa9z5d8SA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.SHOW" value="false" />
-    <property name="UI_DESIGNER_EDITOR_MODE.PaletteManager.WIDTH" value="488" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Arducom1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\thijs\Documents\School\KBS Robotica\ictm2c3\BlasterBoy\src\main\resources\assets\tmx" />
-      <recent name="C:\Users\thijs\Documents\School\KBS Robotica\ictm2c3\BlasterBoy\src\main\resources\assets" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\thijs\Documents\School\KBS Robotica\ictm2c3\BlasterBoy\src\main\resources\assets\textures" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.mainMenuInterface">
+  <component name="RunManager">
     <configuration name="BBApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ictm2c3.blasterboy.BBApp" />
       <module name="BlasterBoy" />
@@ -65,22 +158,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="mainMenuInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ictm2c3.blasterboy.mainMenuInterface" />
-      <module name="BlasterBoy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ictm2c3.blasterboy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.mainMenuInterface" />
         <item itemvalue="Application.BBApp" />
       </list>
     </recent_temporary>
@@ -90,109 +169,47 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a91404d4-9b84-46ac-8854-c7df31fa2c5e" name="Default Changelist" comment="" />
-      <created>1587493864482</created>
+      <changelist id="01e38bbd-5f40-4225-96db-b3c17ba4fff3" name="Default Changelist" comment="" />
+      <created>1590577292312</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1587493864482</updated>
-      <workItem from="1587493867172" duration="5164000" />
-      <workItem from="1587535837671" duration="6476000" />
-      <workItem from="1587553547093" duration="4465000" />
-      <workItem from="1587574545380" duration="2865000" />
-      <workItem from="1587578718313" duration="29000" />
-      <workItem from="1587579178786" duration="162000" />
-      <workItem from="1587579383234" duration="3623000" />
-      <workItem from="1587585827221" duration="1863000" />
-      <workItem from="1587588539985" duration="29000" />
-      <workItem from="1587588930891" duration="386000" />
-      <workItem from="1587589341069" duration="2958000" />
-      <workItem from="1587621463603" duration="4532000" />
+      <updated>1590577292312</updated>
     </task>
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="358" key="#Project_Structure" timestamp="1588075522016">
+    <state x="760" y="274" key="#Project_Structure" timestamp="1590577381280">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="872" y="358" key="#Project_Structure/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588075522016" />
-    <state x="1020" y="310" key="#com.intellij.ide.util.MemberChooser" timestamp="1588335103551">
+    <state x="760" y="274" key="#Project_Structure/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590577381280" />
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590577319704">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587592034690" />
-    <state x="1020" y="310" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588335103551" />
-    <state x="787" y="283" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1588250569436">
+    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590577319704" />
+    <state x="986" y="441" key="FileChooserDialogImpl" timestamp="1590683548974">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="590" y="210" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587588946439" />
-    <state x="787" y="283" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588250569436" />
-    <state x="590" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588333007003">
+    <state x="986" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590577374185" />
+    <state x="986" y="441" key="FileChooserDialogImpl/0.0.2560.1400/2560.407.1280.984@0.0.2560.1400" timestamp="1590683548974" />
+    <state width="2517" height="277" key="GridCell.Tab.0.bottom" timestamp="1590672559910">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="590" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588333007003" />
-    <state x="987" y="299" key="FileChooserDialogImpl" timestamp="1588250414968">
+    <state width="2517" height="277" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590657279550" />
+    <state width="2517" height="277" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.407.1280.984@0.0.2560.1400" timestamp="1590672559910" />
+    <state width="2517" height="277" key="GridCell.Tab.0.center" timestamp="1590672559910">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="740" y="222" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587588554487" />
-    <state x="987" y="299" key="FileChooserDialogImpl/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588250414968" />
-    <state width="2517" height="389" key="GridCell.Tab.0.bottom" timestamp="1588337784015">
+    <state width="2517" height="277" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590657279550" />
+    <state width="2517" height="277" key="GridCell.Tab.0.center/0.0.2560.1400/2560.407.1280.984@0.0.2560.1400" timestamp="1590672559910" />
+    <state width="2517" height="277" key="GridCell.Tab.0.left" timestamp="1590672559910">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587628375172" />
-    <state width="2517" height="389" key="GridCell.Tab.0.bottom/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588337784015" />
-    <state width="2517" height="389" key="GridCell.Tab.0.center" timestamp="1588337784015">
+    <state width="2517" height="277" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590657279550" />
+    <state width="2517" height="277" key="GridCell.Tab.0.left/0.0.2560.1400/2560.407.1280.984@0.0.2560.1400" timestamp="1590672559910" />
+    <state width="2517" height="277" key="GridCell.Tab.0.right" timestamp="1590672559910">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587628375172" />
-    <state width="2517" height="389" key="GridCell.Tab.0.center/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588337784015" />
-    <state width="2517" height="389" key="GridCell.Tab.0.left" timestamp="1588337784015">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587628375171" />
-    <state width="2517" height="389" key="GridCell.Tab.0.left/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588337784015" />
-    <state width="2517" height="389" key="GridCell.Tab.0.right" timestamp="1588337784015">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587628375172" />
-    <state width="2517" height="389" key="GridCell.Tab.0.right/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588337784015" />
-    <state x="653" y="237" key="Maven.ArtifactSearchDialog" timestamp="1588250523224">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="490" y="176" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587586082085" />
-    <state x="653" y="237" key="Maven.ArtifactSearchDialog/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588250523224" />
-    <state x="625" y="220" width="687" height="600" key="NewModule_or_Project.wizard" timestamp="1587588566629">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="625" y="220" width="687" height="600" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587588566629" />
-    <state x="760" y="274" key="SettingsEditor" timestamp="1588250782178">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="760" y="274" key="SettingsEditor/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588250782178" />
-    <state x="1159" y="494" key="UIDesigner.ListEditorDialog" timestamp="1588335602282">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1159" y="494" key="UIDesigner.ListEditorDialog/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588335602282" />
-    <state x="1014" y="583" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588250773741">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1014" y="583" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588250773741" />
-    <state x="731" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587592422570">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="731" y="224" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587592422570" />
-    <state x="1050" y="580" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog" timestamp="1588335329540">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1050" y="580" key="com.intellij.uiDesigner.propertyInspector.editors.string.StringEditorDialog/0.0.2560.1400/431.-1050.1680.1010/-1280.555.1280.984@0.0.2560.1400" timestamp="1588335329540" />
-    <state x="342" y="141" key="new project wizard" timestamp="1587493930645">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1587493930645" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1587582938457">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587582938457" />
+    <state width="2517" height="277" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.1280.984@0.0.2560.1400" timestamp="1590657279550" />
+    <state width="2517" height="277" key="GridCell.Tab.0.right/0.0.2560.1400/2560.407.1280.984@0.0.2560.1400" timestamp="1590672559910" />
   </component>
 </project>
